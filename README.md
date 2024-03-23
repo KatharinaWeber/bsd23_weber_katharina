@@ -28,6 +28,12 @@ Katharina Weber
 
 *E-Mail:*  s52785@edu.campus02.at
 
+*Link to my GitHub profile:* [Click here to get to my profile](https://github.com/KatharinaWeber/bsd23_weber_katharina)
+
+
+*Link to my FH:* [FH Campus 02](https://www.campus02.at/)
+
 
 ## Verlinkungen
 - [Exercise**1**](exercise1.md)
+- [Exercise**2**](exercise2.md)
