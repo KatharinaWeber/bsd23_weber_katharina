@@ -1,8 +1,8 @@
 # Exercise 3
-## Beschreibung
+## Description
+Java Project with Maven.
 
-
-## Verwendete Versionen
+## Used versions
 #### Maven
 ```bash
 Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
@@ -24,14 +24,19 @@ Java HotSpot(TM) 64-Bit Server VM (build 21.0.1+12-LTS-29, mixed mode, sharing)
 javac 21.0.1
 ```
 
-## Bild der Ordnerstruktur
+## File structure
 
-![Ordnerstruktur](resources/images/ex3_1.png)
+![file structure](resources/images/ex3_1.png)
 #### Description
+Resources was created
+Here you can see the file structure of a java project. .gitignore ignores the mentioned Files when working with Git.
+In src is the Source-Code located, in resources are the used pictured from the different exercise.md. 
 
-Hier kann man die Ordnerstruktur eines Java Projektes sehen. .gitignore ignoriert bestimmte Files bei der Interaktion mit Git.
-In src liegt der Source-Code, in resources liegen die in den exercise.md verwendeten Bilder. 
+
+## Successful Builds
+### 1.
+![successful Build 1](resources/images/ex3_2.png)
+### 2.
+![successful Build 2](resources/images/ex3_3.png)
 
 
-## Erfolgreicher Build
-![erfolgreicher Build](resources/images/ex3_2.png)
