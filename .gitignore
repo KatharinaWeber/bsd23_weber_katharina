@@ -12,6 +12,8 @@ target/
 *.iws
 *.iml
 *.ipr
+*.pdf
+*.html
 
 ### Eclipse ###
 .apt_generated
@@ -38,7 +40,5 @@ build/
 ### Mac OS ###
 .DS_Store
 
-### exercises ###
-exercise1.html
-exercise1.pdf
+
 
