@@ -1,6 +1,6 @@
 # Exercise 4
 ## Description
-Testing the Calculator
+JUnit-testing the Calculator
 
 ### Testing the add-methods
 #### Testcase 1
@@ -31,3 +31,9 @@ dividing two negative numbers with positive output
 #### Testcase 3
 dividing a positive with a negative number with negative output
 
+![ex4_1.png](resources%2Fimages%2Fex4_1.png)
+
+
+### Errors
+![ex4_2.1.png](resources%2Fimages%2Fex4_2.1.png)
+![ex4_2.png](resources%2Fimages%2Fex4_2.png)
