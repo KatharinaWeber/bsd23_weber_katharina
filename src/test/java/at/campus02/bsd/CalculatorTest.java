@@ -71,7 +71,7 @@ public class CalculatorTest {
     }
     @Test
     void testFactorial2(){
-        assertEquals(1, calc.factorial(1));
+        assertEquals(1, calc.factorial(0));
     }
     @Test
     void testFactorial3(){

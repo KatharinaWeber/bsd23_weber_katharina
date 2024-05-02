@@ -19,6 +19,15 @@ public class Calculator {
     public static double divide(double number1, double number2){return number1 / number2;}
 
     public static int factorial(int param){
-        return 0;
+        int result=1;
+        if(param<0){
+            result = 0;
+        }
+        else {
+            for (int i = 1; i <= param; i++) {
+                result *= i;
+            }
+        }
+        return result;
     }
 }
