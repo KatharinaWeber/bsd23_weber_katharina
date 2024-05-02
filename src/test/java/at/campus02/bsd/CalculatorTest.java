@@ -65,5 +65,17 @@ public class CalculatorTest {
         assertEquals(-4, calc.divide(16,-4));
     }
 
+    @Test
+    void testFactorial1(){
+        assertEquals(0, calc.factorial(-5));
+    }
+    @Test
+    void testFactorial2(){
+        assertEquals(1, calc.factorial(1));
+    }
+    @Test
+    void testFactorial3(){
+        assertEquals(120, calc.factorial(5));
+    }
 
 }

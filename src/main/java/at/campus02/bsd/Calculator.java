@@ -18,4 +18,7 @@ public class Calculator {
     }
     public static double divide(double number1, double number2){return number1 / number2;}
 
+    public static int factorial(int param){
+        return 0;
+    }
 }
