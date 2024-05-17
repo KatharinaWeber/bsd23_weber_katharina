@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest {
     private Calculator calc;
@@ -64,7 +65,12 @@ public class CalculatorTest {
     void testDivide3(){
         assertEquals(-4, calc.divide(16,-4));
     }
-
+    @Test
+    void testDivide4() {
+        assertThrows(ArithmeticException.class, () -> {
+            calc.divide(5, 0);
+        });
+    }
     @Test
     void testFactorial1(){
         assertEquals(0, calc.factorial(-5));
@@ -77,5 +83,6 @@ public class CalculatorTest {
     void testFactorial3(){
         assertEquals(120, calc.factorial(5));
     }
+
 
 }
