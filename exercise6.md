@@ -28,3 +28,8 @@
 
 
 ## Images
+![ex6_1.png](resources%2Fimages%2Fex6_1.png)
+
+![ex6_2.png](resources%2Fimages%2Fex6_2.png)
+
+![ex6_3.png](resources%2Fimages%2Fex6_3.png)
